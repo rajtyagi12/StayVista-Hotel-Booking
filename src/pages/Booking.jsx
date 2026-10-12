@@ -46,7 +46,7 @@ function Booking() {
       return;
     }
 
-    // Show confirmation screen
+
     setBookingConfirmed(true);
 
     console.log("Booking Details:", {
@@ -55,7 +55,7 @@ function Booking() {
     });
   };
 
-  // Booking Confirmation Screen
+
   if (bookingConfirmed) {
     return (
       <div className="booking-page">
@@ -157,7 +157,7 @@ function Booking() {
 
         </div>
 
-        {/* Booking Form */}
+
         <div className="booking-form-container">
 
           <h2>Complete Your Booking</h2>
@@ -168,7 +168,6 @@ function Booking() {
 
           <form onSubmit={handleSubmit}>
 
-            {/* Full Name */}
             <div className="form-group">
 
               <label>Full Name</label>
@@ -187,7 +186,7 @@ function Booking() {
 
             </div>
 
-            {/* Email */}
+
             <div className="form-group">
 
               <label>Email Address</label>
@@ -206,7 +205,7 @@ function Booking() {
 
             </div>
 
-            {/* Dates */}
+
             <div className="date-row">
 
               <div className="form-group">
@@ -245,7 +244,7 @@ function Booking() {
 
             </div>
 
-            {/* Guests */}
+
             <div className="form-group">
 
               <label>Guests</label>
@@ -267,7 +266,7 @@ function Booking() {
 
             </div>
 
-            {/* Confirm Booking */}
+
             <button
               type="submit"
               className="confirm-booking-btn"

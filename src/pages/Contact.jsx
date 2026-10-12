@@ -2,16 +2,16 @@ function Contact() {
   return (
     <div className="contact-page">
 
-      {/* Contact Hero */}
+
       <div className="contact-hero">
         <h1>Contact StayVista</h1>
         <p>We'd love to hear from you.</p>
       </div>
 
-      {/* Contact Content */}
+
       <div className="contact-content">
 
-        {/* Contact Information */}
+
         <div className="contact-info">
 
           <h2>Get In Touch</h2>
@@ -47,7 +47,7 @@ function Contact() {
 
         </div>
 
-        {/* Contact Form */}
+
         <div className="contact-form">
 
           <h2>Send Us a Message</h2>

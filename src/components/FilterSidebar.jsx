@@ -35,3 +35,4 @@ function FilterSidebar({ rating, setRating, sort, setSort }) {
 }
 
 export default FilterSidebar;
+

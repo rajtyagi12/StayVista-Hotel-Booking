@@ -19,7 +19,7 @@ function Hotels() {
     return matchesSearch && matchesRating;
   });
 
-  // Price sorting
+  
   if (sort === "low") {
     filteredHotels.sort((a, b) => a.price - b.price);
   }

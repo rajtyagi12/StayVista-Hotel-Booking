@@ -8,7 +8,6 @@ function About() {
         <p>Your perfect stay, made simple.</p>
       </div>
 
-      {/* About StayVista */}
       <div className="about-content">
 
         {/* Image */}
@@ -19,7 +18,6 @@ function About() {
           />
         </div>
 
-        {/* Text */}
         <div className="about-text">
           <h2>About StayVista</h2>
 
@@ -40,7 +38,6 @@ function About() {
 
       </div>
 
-      {/* Why Choose Us */}
       <section className="why-choose">
 
         <h2>Why Choose StayVista?</h2>
